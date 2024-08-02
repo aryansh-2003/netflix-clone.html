@@ -97,18 +97,25 @@ button{
 
 }
 .box-1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     height: 50rem;
     width: 100%;
     border: 2px solid black;
     background-color: black;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: flex-start;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 100%;
+}
 .text{
-    text-align: start;
-    margin-left: 20rem;
+    display: grid;
+    text-align: center;
     color: aliceblue;
 }
 .text h2{
@@ -124,7 +131,6 @@ button{
     justify-content: center;
     align-items: center;
     position: relative;
- margin-left: 3%;
     height: 30rem;
     width: 80rem;
     background-image: url("netflix-img2.jpg");
@@ -136,11 +142,11 @@ button{
     background-repeat: no-repeat;
     width: 100rem;
     height: 40rem;
-    margin-left: 10%;
+  
 }
 .text-3{
+    display: grid;
     text-align: start;
-margin-right: 15%;
     color: aliceblue;
 }
 .text-3 h2{
@@ -148,21 +154,25 @@ margin-right: 15%;
     font-weight: 800;
 }
 .text-3 p{
-    font-size: 2.3rem;
+    font-size: 2.9rem;
     
 }
 .image-3{
     background-image: url("netflix-img4.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 5%;
+}
+.text-4{
+    display: grid;
 }
 .text-4 h2{
     font-size: 5rem;
-    margin-bottom: none;
 }
-.text-4{
-    margin-top: none;
+.image-5{
+    background-image: url("netflix-img5.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100rem;
 }
 @media(max-width:998px) {
     html{
@@ -172,7 +182,7 @@ margin-right: 15%;
 }
 @media(max-width:768px) {
     html{
-        font-size: 45%;
+        font-size: 30%;
     }
     
 }
